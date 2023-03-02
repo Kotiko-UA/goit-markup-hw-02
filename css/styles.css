@@ -10,7 +10,7 @@ body {
 :root {
     --primary-brand: #4D5AE5;
     --pressed-state: #404BBF;
-    --dark: #2E2F42;
+    --title-dark: #2E2F42;
     --success: #31D0AA;
     --text: #434455;
     --subtle-text: #8E8F99;
@@ -21,8 +21,7 @@ body {
 
 }
 
-/* navigations */
-.nav {}
+/* ----------------------navigations------------------
 
 /* logo */
 .logo {
@@ -38,7 +37,7 @@ body {
 }
 
 .logo-web {
-    color: var(--dark);
+    color: var(--title-dark);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -53,7 +52,7 @@ body {
 }
 
 .nav-item {
-    color: var(--dark);
+    color: var(--title-dark);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -63,7 +62,7 @@ body {
     text-decoration: none;
 }
 
-/* adress */
+/* /* ----------------------adress------------------ */
 .adress {}
 
 .adress-list {
@@ -82,13 +81,13 @@ body {
 
 }
 
+/*  /* ----------------------Hero----------------- */
 .hero {
-    background-color: var(--dark)
+    background-color: var(--title-dark)
 }
 
 .hero-title {
     color: #fff;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -98,15 +97,14 @@ body {
 
     cursor: pointer;
     background: var(--primary-brand);
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
-    display: flex;
     align-items: center;
     letter-spacing: 0.04em;
 }
 
+/* ----------------------advansed------------------  */
 .adv {}
 
 .adv-title {}
@@ -118,7 +116,7 @@ body {
 .adv-item {}
 
 .adv-item-title {
-    color: var(--dark);
+    color: var(--title-dark);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -132,11 +130,12 @@ body {
     line-height: 1.5;
 }
 
+/* ----------------------our works------------------
+ */
 .ourwork {}
 
 .ourwork-title {
-    color: var(--dark);
-    font-weight: 700;
+    color: var(--title-dark);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -147,13 +146,13 @@ body {
     list-style: none;
 }
 
+/*  ----------------------our team------------------ */
 .team {
     background-color: var(--light);
 }
 
 .team-title {
-    color: var(--dark);
-    font-weight: 700;
+    color: var(--title-dark);
     font-size: 36px;
     line-height: 1.11;
     text-align: center;
@@ -169,7 +168,7 @@ body {
 .team-photo {}
 
 .team-sect-title {
-    color: var(--dark);
+    color: var(--title-dark);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -183,8 +182,9 @@ body {
     text-align: center;
 }
 
+/* ----------------------footer------------------ */
 .footer {
-    background-color: var(--dark);
+    background-color: var(--title-dark);
 }
 
 .footer-logo {
