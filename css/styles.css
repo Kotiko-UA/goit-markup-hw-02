@@ -1,5 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    letter-spacing: 0.02em;
 
 }
 
@@ -22,49 +24,39 @@ body {
 /* navigations */
 .nav {}
 
-.logo-webstudio {
-    text-decoration: none;
+/* logo */
+.logo {
+    color: var(--primary-brand);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--primary-brand);
-
+    text-decoration: none;
 
 }
 
 .logo-web {
-
+    color: var(--dark);
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: var(--dark);
+
 }
 
 .nav-list {
     list-style: none;
-
-
 }
 
 .nav-item {
-
-    font-family: 'Roboto';
-    font-style: normal;
+    color: var(--dark);
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--dark);
+    line-height: 1.5;
 }
 
 .nav-item-link {
@@ -78,26 +70,16 @@ body {
     list-style: none;
 }
 
-.adress-mail {}
-
-.adress-phone {}
-
-.adress-link {}
-
-
-.adress-mail {}
-
-.address-phone {}
+.adress-item {}
 
 .adress-link {
-    text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+
     color: var(--text);
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.5;
+    font-style: normal;
+
 }
 
 .hero {
@@ -105,24 +87,24 @@ body {
 }
 
 .hero-title {
+    color: #fff;
     font-weight: 700;
     font-size: 56px;
-    line-height: 60px;
+    line-height: 1.07;
     text-align: center;
-    letter-spacing: 0.02em;
-    color: #fff;
 }
 
 .button {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    padding: 16px 32px;
-    gap: 10px;
+
     cursor: pointer;
     background: var(--primary-brand);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
 }
 
 .adv {}
@@ -136,29 +118,28 @@ body {
 .adv-item {}
 
 .adv-item-title {
+    color: var(--dark);
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    color: var(--dark);
-    letter-spacing: 0.02em;
+    line-height: 1.2;
+
+
 }
 
 .adv-item-text {
-    font-size: 16px;
-    line-height: 24px;
     color: var(--text);
-    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .ourwork {}
 
 .ourwork-title {
+    color: var(--dark);
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    color: var(--dark);
+    line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -171,12 +152,11 @@ body {
 }
 
 .team-title {
+    color: var(--dark);
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    color: var(--dark);
+    line-height: 1.11;
     text-align: center;
-    letter-spacing: 0.02em;
     text-transform: capitalize;
 }
 
@@ -189,20 +169,18 @@ body {
 .team-photo {}
 
 .team-sect-title {
+    color: var(--dark);
     font-weight: 500;
     font-size: 20px;
-    line-height: 24px;
-    color: var(--dark);
+    line-height: 1.2;
     text-align: center;
-    letter-spacing: 0.02em;
+
 }
 
 .team-text {
     font-size: 16px;
-    line-height: 24px;
-    color: var(--text);
+    line-height: 1.5;
     text-align: center;
-    letter-spacing: 0.02em;
 }
 
 .footer {
@@ -214,8 +192,7 @@ body {
     color: var(--primary-brand);
     font-weight: 800;
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
+    line-height: 1.17;
     align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
@@ -228,8 +205,8 @@ body {
 }
 
 .footer-text {
-    font-size: 16px;
-    line-height: 24px;
     color: var(--accent);
-    letter-spacing: 0.02em;
+    font-size: 16px;
+    line-height: 1.5;
+
 }
