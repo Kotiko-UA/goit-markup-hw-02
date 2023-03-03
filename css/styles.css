@@ -2,7 +2,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: #fff;
     letter-spacing: 0.02em;
-
+    color: var(--text);
 }
 
 /* root color */
@@ -28,6 +28,11 @@ body {
 .link {
     text-decoration: none;
     font-style: normal;
+}
+
+.link:hover,
+.link:focus {
+    color: var(--primary-brand);
 }
 
 /* ----------------------navigations------------------
@@ -76,7 +81,7 @@ body {
 
 .adress-link {
 
-    color: var(--text);
+    color: inherit;
     font-size: 16px;
     line-height: 1.5;
 
@@ -98,12 +103,19 @@ body {
 
     cursor: pointer;
     background: var(--primary-brand);
+    color: #fff;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
     font-style: inherit;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--primary-brand);
+    background-color: var(--light);
 }
 
 /* ----------------------advansed------------------  */
@@ -125,7 +137,6 @@ body {
 }
 
 .adv-item-text {
-    color: var(--text);
     font-size: 16px;
     line-height: 1.5;
 }
@@ -245,7 +256,6 @@ body {
 }
 
 .portfolio-text {
-    color: var(--text);
     font-size: 16px;
     line-height: 1.5;
 }
