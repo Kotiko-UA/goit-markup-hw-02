@@ -32,7 +32,7 @@ body {
 
 .link:hover,
 .link:focus {
-    color: var(--primary-brand);
+    color: var(--pressed-state);
 }
 
 /* ----------------------navigations------------------
@@ -46,18 +46,11 @@ body {
     line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
 
 }
 
-.logo-web {
+.logo-studio {
     color: var(--title-dark);
-    font-family: 'Raleway', sans-serif;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: 1.33;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
 
 }
 
@@ -81,7 +74,7 @@ body {
 
 .adress-link {
 
-    color: inherit;
+    color: var(--title-dark);
     font-size: 16px;
     line-height: 1.5;
 
@@ -97,10 +90,12 @@ body {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
+    letter-spacing: 0.02em;
+
 }
 
 .button {
-
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     background: var(--primary-brand);
     color: #fff;
@@ -121,7 +116,9 @@ body {
 /* ----------------------advansed------------------  */
 .adv {}
 
-.adv-title {}
+.adv-title {
+    letter-spacing: 0.02em
+}
 
 .adv-list {}
 
@@ -149,6 +146,7 @@ body {
     color: var(--title-dark);
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
 }
@@ -164,6 +162,7 @@ body {
     color: var(--title-dark);
     font-size: 36px;
     line-height: 1.11;
+    letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
 }
@@ -179,6 +178,7 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
     text-align: center;
 
 }
@@ -199,11 +199,9 @@ body {
     color: var(--primary-brand);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
-    align-items: center;
+    line-height: 1.33;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    text-decoration: none;
 
 }
 
@@ -219,13 +217,18 @@ body {
 }
 
 /* ----------------------PORTFOLIO------------------ */
-.portfolio-title {}
+.portfolio {}
+
+.portfolio-title {
+    letter-spacing: 0.02em;
+}
 
 .porbutton-list {}
 
 .portbutton-item {}
 
 .portbutton {
+    font-family: 'Roboto', sans-serif;
     font-style: inherit;
     color: var(--primary-brand);
     background-color: var(--light);
@@ -245,6 +248,8 @@ body {
 }
 
 .portfolio-list {}
+
+.port-link {}
 
 .portfolio-item {}
 
