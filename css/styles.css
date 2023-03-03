@@ -102,6 +102,7 @@ body {
     line-height: 1.5;
     align-items: center;
     letter-spacing: 0.04em;
+    font-style: inherit;
 }
 
 /* ----------------------advansed------------------  */
@@ -209,4 +210,51 @@ body {
     font-size: 16px;
     line-height: 1.5;
 
+}
+
+/* ----------------------PORTFOLIO------------------ */
+.portfolio-title {}
+
+.porbutton-list {
+    list-style: none;
+}
+
+.portbutton-item {}
+
+.portbutton {
+    font-style: inherit;
+    color: var(--primary-brand);
+    background-color: var(--light);
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+}
+
+.portbutton:hover,
+.portbutton:focus {
+    color: #fff;
+    background-color: var(--pressed-state);
+}
+
+.portfolio-list {
+    list-style: none;
+}
+
+.portfolio-item {}
+
+.portfolio-subtitle {
+    color: var(--title-dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.portfolio-text {
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.5;
 }
