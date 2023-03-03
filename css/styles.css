@@ -21,6 +21,15 @@ body {
 
 }
 
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none;
+    font-style: normal;
+}
+
 /* ----------------------navigations------------------
 
 /* logo */
@@ -47,9 +56,7 @@ body {
 
 }
 
-.nav-list {
-    list-style: none;
-}
+.nav-list {}
 
 .nav-item {
     color: var(--title-dark);
@@ -58,26 +65,20 @@ body {
     line-height: 1.5;
 }
 
-.nav-item-link {
-    text-decoration: none;
-}
+.nav-item-link {}
 
 /* /* ----------------------adress------------------ */
 .adress {}
 
-.adress-list {
-    list-style: none;
-}
+.adress-list {}
 
 .adress-item {}
 
 .adress-link {
 
     color: var(--text);
-    text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
-    font-style: normal;
 
 }
 
@@ -110,9 +111,7 @@ body {
 
 .adv-title {}
 
-.adv-list {
-    list-style: none;
-}
+.adv-list {}
 
 .adv-item {}
 
@@ -143,9 +142,7 @@ body {
     text-transform: capitalize;
 }
 
-.ourwork-list {
-    list-style: none;
-}
+.ourwork-list {}
 
 /*  ----------------------our team------------------ */
 .team {
@@ -160,9 +157,7 @@ body {
     text-transform: capitalize;
 }
 
-.team-list {
-    list-style: none;
-}
+.team-list {}
 
 .team-item {}
 
@@ -189,7 +184,7 @@ body {
 }
 
 .footer-logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway' sans-serif;
     color: var(--primary-brand);
     font-weight: 800;
     font-size: 18px;
@@ -215,9 +210,7 @@ body {
 /* ----------------------PORTFOLIO------------------ */
 .portfolio-title {}
 
-.porbutton-list {
-    list-style: none;
-}
+.porbutton-list {}
 
 .portbutton-item {}
 
@@ -240,9 +233,7 @@ body {
     background-color: var(--pressed-state);
 }
 
-.portfolio-list {
-    list-style: none;
-}
+.portfolio-list {}
 
 .portfolio-item {}
 
