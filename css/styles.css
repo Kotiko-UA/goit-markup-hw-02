@@ -21,6 +21,39 @@ body {
 
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+    margin: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+address {
+    font-style: normal;
+}
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid red;
+}
+
+.header {}
+
 .list {
     list-style: none;
 }
@@ -66,9 +99,7 @@ body {
 }
 
 /* /* ----------------------adress------------------ */
-.adress {
-    font-style: normal;
-}
+.adress {}
 
 .adress-list {}
 
@@ -99,7 +130,6 @@ body {
 
 .button {
     font-family: 'Roboto', sans-serif;
-    cursor: pointer;
     background: var(--primary-brand);
     color: #fff;
     font-weight: 500;
@@ -240,7 +270,6 @@ body {
     font-style: inherit;
     color: var(--primary-brand);
     background-color: var(--light);
-    cursor: pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
