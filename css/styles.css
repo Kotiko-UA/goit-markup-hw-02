@@ -21,6 +21,10 @@ body {
     color: var(--text);
 }
 
+img {
+    display: block;
+}
+
 p,
 h1,
 h2,
@@ -158,9 +162,7 @@ address {
 /* ----------------------advansed------------------  */
 .adv {}
 
-.adv-title {
-    display: none;
-}
+.adv-title {}
 
 .adv-list {
     padding: 120px 0;
@@ -173,7 +175,7 @@ address {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
-
+    margin-bottom: 8px;
 
 }
 
@@ -278,13 +280,16 @@ address {
 }
 
 /* ----------------------PORTFOLIO------------------ */
-.portfolio {}
-
-.portfolio-title {
-    letter-spacing: 0.02em;
+.portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
 }
 
-.porbutton-list {}
+.portfolio-title {}
+
+.porbutton-list {
+    margin-bottom: 72px;
+}
 
 .portbutton-item {}
 
@@ -309,9 +314,17 @@ address {
 
 .portfolio-list {}
 
-.port-link {}
+.port-link {
+    margin-bottom: 48px;
+}
 
-.portfolio-item {}
+.port-link-img {
+    margin-bottom: 32px;
+}
+
+.portfolio-item {
+    margin-bottom: 48px;
+}
 
 .portfolio-subtitle {
     color: var(--title-dark);
@@ -319,6 +332,7 @@ address {
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
+    margin-bottom: 8px;
 }
 
 .portfolio-text {
