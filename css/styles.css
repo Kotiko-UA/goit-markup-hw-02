@@ -1,10 +1,3 @@
-body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #fff;
-    letter-spacing: 0.02em;
-    color: var(--text);
-}
-
 /* root color */
 
 :root {
@@ -19,6 +12,13 @@ body {
     --modal-overlay: rgba(46, 47, 66, 0.4);
     --hero-background: rgba(46, 47, 66, 0.7);
 
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #fff;
+    letter-spacing: 0.02em;
+    color: var(--text);
 }
 
 p,
@@ -52,8 +52,6 @@ address {
     outline: 2px solid red;
 }
 
-.header {}
-
 .list {
     list-style: none;
 }
@@ -67,6 +65,13 @@ address {
 .link:focus {
     color: var(--pressed-state);
 }
+
+/* ----------------HEADER-------------- */
+.header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
 
 /* ----------------------navigations------------------
 
@@ -116,7 +121,9 @@ address {
 
 /*  /* ----------------------Hero----------------- */
 .hero {
-    background-color: var(--title-dark)
+    padding-top: 188px;
+    padding-bottom: 188px;
+    background-color: var(--title-dark);
 }
 
 .hero-title {
@@ -125,6 +132,8 @@ address {
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
+    margin-bottom: 48px;
+
 
 }
 
@@ -150,10 +159,12 @@ address {
 .adv {}
 
 .adv-title {
-    letter-spacing: 0.02em
+    display: none;
 }
 
-.adv-list {}
+.adv-list {
+    padding: 120px 0;
+}
 
 .adv-item {}
 
@@ -173,7 +184,9 @@ address {
 
 /* ----------------------our works------------------
  */
-.ourwork {}
+.ourwork {
+    padding-bottom: 120px;
+}
 
 .ourwork-title {
     color: var(--title-dark);
@@ -182,6 +195,7 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .ourwork-list {}
@@ -189,6 +203,8 @@ address {
 /*  ----------------------our team------------------ */
 .team {
     background-color: var(--light);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .team-title {
@@ -198,13 +214,17 @@ address {
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
+
 }
 
 .team-list {}
 
 .team-item {}
 
-.team-photo {}
+.team-photo {
+    margin-bottom: 32px;
+}
 
 .team-sect-title {
     color: var(--title-dark);
@@ -213,7 +233,7 @@ address {
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-
+    margin-bottom: 8px;
 }
 
 .team-text {
@@ -225,6 +245,8 @@ address {
 /* ----------------------footer------------------ */
 .footer {
     background-color: var(--title-dark);
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .footer-logo {
@@ -235,6 +257,7 @@ address {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
+    margin-bottom: 16px;
 }
 
 .footer-logo-studio {
