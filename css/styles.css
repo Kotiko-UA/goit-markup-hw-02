@@ -53,7 +53,7 @@ address {
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
-    outline: 2px solid red;
+    /* outline: 2px solid red; */
 }
 
 .list {
@@ -115,8 +115,6 @@ address {
     gap: 40px;
 }
 
-.nav-item {}
-
 .nav-item-link {
     display: block;
     padding-top: 20px;
@@ -138,8 +136,6 @@ address {
     display: flex;
     gap: 40px;
 }
-
-.adress-item {}
 
 .adress-link {
 
@@ -174,9 +170,6 @@ address {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
-
-
-
 }
 
 .button {
@@ -260,7 +253,7 @@ address {
 }
 
 .ourwork-item {
-    width: calc((100% - 48) / 3);
+    width: calc((100% - 48px) / 3);
 }
 
 /*  ----------------------our team------------------ */
@@ -271,13 +264,14 @@ address {
 }
 
 .team-title {
+    margin-bottom: 72px;
+
     color: var(--title-dark);
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 72px;
 
 }
 
@@ -297,13 +291,14 @@ address {
 }
 
 .team-sect-title {
+    margin-bottom: 8px;
+
     color: var(--title-dark);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    margin-bottom: 8px;
 }
 
 .team-text {
@@ -314,15 +309,16 @@ address {
 
 /* ----------------------footer------------------ */
 .footer {
-    background-color: var(--title-dark);
     padding-top: 100px;
     padding-bottom: 100px;
+
+    background-color: var(--title-dark);
 }
 
 .footer-logo {
-    display: block;
     margin-bottom: 16px;
 
+    display: block;
     font-family: "Raleway", sans-serif;
     color: var(--primary-brand);
     font-weight: 800;
@@ -359,10 +355,10 @@ address {
 .portfolio-title {}
 
 .porbutton-list {
-    justify-content: center;
     margin-bottom: 72px;
     display: flex;
     gap: 24px;
+    justify-content: center;
 
 }
 
@@ -397,8 +393,7 @@ address {
 
 .portfolio-item {
 
-    width: calc((100% - 48) / 3);
-    padding-bottom: 32px;
+    width: calc((100% - 48px) / 3);
 
 }
 
@@ -406,8 +401,6 @@ address {
     display: block;
 
 }
-
-.port-link-img {}
 
 .border-text {
     padding-top: 32px;
