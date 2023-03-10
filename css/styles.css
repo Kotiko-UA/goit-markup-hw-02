@@ -219,7 +219,7 @@ address {
 }
 
 .adv-item {
-    width: calc((100%-24*3)/4);
+    width: calc((100% - 24 * 3) / 4);
 }
 
 .adv-item-title {
@@ -257,6 +257,10 @@ address {
 .ourwork-list {
     display: flex;
     gap: 24px;
+}
+
+.ourwork-item {
+    width: calc((100% - 48) / 3);
 }
 
 /*  ----------------------our team------------------ */
@@ -355,12 +359,18 @@ address {
 .portfolio-title {}
 
 .porbutton-list {
+    justify-content: center;
     margin-bottom: 72px;
+    display: flex;
+    gap: 24px;
+
 }
 
 .portbutton-item {}
 
 .portbutton {
+    padding: 12px 24px;
+
     font-family: 'Roboto', sans-serif;
     font-style: inherit;
     color: var(--primary-brand);
@@ -379,30 +389,47 @@ address {
     background-color: var(--pressed-state);
 }
 
-.portfolio-list {}
-
-.port-link {
-    margin-bottom: 48px;
-}
-
-.port-link-img {
-    margin-bottom: 32px;
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
 }
 
 .portfolio-item {
-    margin-bottom: 48px;
+
+    width: calc((100% - 48) / 3);
+    padding-bottom: 32px;
+
+}
+
+.port-link {
+    display: block;
+
+}
+
+.port-link-img {}
+
+.border-text {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    background: #FFF;
+    border-left: 1px solid #E7E9FC;
+    border-bottom: 1px solid #E7E9FC;
+    border-right: 1px solid #E7E9FC;
 }
 
 .portfolio-subtitle {
+    margin-bottom: 8px;
+
     color: var(--title-dark);
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-    margin-bottom: 8px;
 }
 
 .portfolio-text {
+
     color: var(--text);
     font-size: 16px;
     line-height: 1.5;
